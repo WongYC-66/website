@@ -60,9 +60,6 @@ export default function CertificationPage() {
 
       </div>
 
-      {/* <p>https://www.hackerrank.com/certificates/iframe/25f24bdd48b5</p>
-      <p>https://www.hackerrank.com/certificates/iframe/afee66052fa2</p> */}
-
     </main>
   );
 }

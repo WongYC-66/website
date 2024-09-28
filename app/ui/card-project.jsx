@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import PhotoModal from "./image-modal"
 
 export default function CardCert({ imgSrc, title, description, extLink }) {
 
@@ -34,9 +33,6 @@ export default function CardCert({ imgSrc, title, description, extLink }) {
                     </a>
                 </div>
             </div>
-
-            {/* Modal of photo upon click */}
-            <PhotoModal imgSrc={imgSrc} open={open}/>
 
         </div>
     )

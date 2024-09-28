@@ -3,7 +3,6 @@ import Image from "next/image"
 import { useEffect, useRef } from "react"
 
 export default function PhotoModal({ imgSrc, open, toggle }) {
-    console.log(open)
 
     const modalRef = useRef(null)
 
