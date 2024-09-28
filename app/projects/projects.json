@@ -1,0 +1,38 @@
+[
+    {
+        "title": "aaa",
+        "description": "aaaaaaa",
+        "tech_stack": ["next"],
+        "img_URL": "https://placehold.co/600x400",
+        "repo_URL": "google.com",
+        "demo_URL": "facebook.com",
+        "type" : "full-stack"
+    },
+    {
+        "title": "bbb",
+        "description": "bbbbbbbbb",
+        "tech_stack": ["next"],
+        "img_URL": "https://placehold.co/600x400",
+        "repo_URL": "google.com",
+        "demo_URL": "facebook.com",
+        "type" : "full-stack"
+    },
+    {
+        "title": "ccccc",
+        "description": "cccccccccc",
+        "tech_stack": ["next"],
+        "img_URL": "https://placehold.co/600x400",
+        "repo_URL": "google.com",
+        "demo_URL": "facebook.com",
+        "type" : "front-end"
+    },
+    {
+        "title": "dd",
+        "description": "dddddddddddd",
+        "tech_stack": ["next"],
+        "img_URL": "https://placehold.co/600x400",
+        "repo_URL": "google.com",
+        "demo_URL": "facebook.com",
+        "type" : "front-end"
+    }
+]

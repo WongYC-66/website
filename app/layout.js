@@ -29,6 +29,10 @@ export default function RootLayout({ children }) {
 
           <NavBar />
 
+          {/* Gap for navbar */}
+          <div className="mt-[75px]"></div>
+
+          {/* Main  */}
           <div className="grow flex justify-center">
             {children}
           </div>
