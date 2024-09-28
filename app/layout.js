@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-slate-100">
 
           <NavBar />
 
-          <div className="grow">
+          <div className="grow flex justify-center">
             {children}
           </div>
 
