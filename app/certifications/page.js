@@ -10,51 +10,53 @@ export default function CertificationPage() {
       {/* Front End*/}
       <h2 className="font-bold text-2xl self-start ms-4">Front End</h2>
 
-      <div class="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
 
-        <CardCert title='FreeCodeCamp - Responsive Web Design' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://www.freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/responsive-web-design' />
+        <CardCert title='Responsive Web Design' description='FreeCodeCamp' imgSrc='/certs/cert-responsive-web-design.png' extLink='https://www.freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/responsive-web-design' />
 
-        <CardCert title='FreeCodeCamp - JavaScript Algorithms and Data Structures' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/javascript-algorithms-and-data-structures-v8' />
+        <CardCert title='JavaScript Algorithms and Data Structures' description='FreeCodeCamp' imgSrc='/certs/cert-javascript-algorithms-and-data-structure.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/javascript-algorithms-and-data-structures-v8' />
 
-        <CardCert title='FreeCodeCamp - Front End Development Libraries' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/front-end-development-libraries' />
+        <CardCert title='Front End Development Libraries' description='FreeCodeCamp' imgSrc='/certs/cert-front-end-development-library.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/front-end-development-libraries' />
 
-        <CardCert title='FreeCodeCamp - Data Visualization' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-visualization' />
+        <CardCert title='Data Visualization' description='FreeCodeCamp' imgSrc='/certs/cert-data-visulization.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-visualization' />
+
+        <CardCert title='JavaScript (Intermediate) Certificate' description='HackerRank' imgSrc='/certs/cert-javascript-intermediate.png' extLink='https://www.hackerrank.com/certificates/afee66052fa2' />
 
       </div>
 
       {/* Back End*/}
       <h2 className="font-bold text-2xl self-start ms-4">Back End</h2>
 
-      <div class="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
 
-        <CardCert title='FreeCodeCamp - Relational Database' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/relational-database-v8' />
+        <CardCert title='Relational Database' description='FreeCodeCamp' imgSrc='/certs/cert-relational-database.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/relational-database-v8' />
 
-        <CardCert title='FreeCodeCamp - Back End Development and APIs' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/back-end-development-and-apis' />
+        <CardCert title='Back End Development and APIs' description='FreeCodeCamp' imgSrc='/certs/cert-backend-development-and-apis.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/back-end-development-and-apis' />
 
-        <CardCert title='FreeCodeCamp - Quality Assurance' description='Built 5 projects'
-          imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/quality-assurance-v7' />
+        <CardCert title='Quality Assurance' description='FreeCodeCamp'
+          imgSrc='/certs/cert-quality-assurance.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/quality-assurance-v7' />
 
-        <CardCert title='FreeCodeCamp - Information Security' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/information-security-v7' />
+        <CardCert title='Information Security' description='FreeCodeCamp' imgSrc='/certs/cert-information-security.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/information-security-v7' />
+
+        <CardCert title='Problem Solving (Basic) Certificate' description='HackerRank' imgSrc='/certs/cert-problem-solving-basic.png' extLink='https://www.hackerrank.com/certificates/25f24bdd48b5' />
 
       </div>
 
       {/* Data Analytic / Other*/}
-      <h2 className="font-bold text-2xl self-start ms-4">Data Analytic / Other</h2>
+      <h2 className="font-bold text-2xl self-start ms-4">Data Analytics / Other</h2>
 
-      <div class="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(275px,1fr))] gap-4">
 
-        <CardCert title='FreeCodeCamp - Scientific Computing with Python' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/scientific-computing-with-python-v7' />
+        <CardCert title='Scientific Computing with Python' description='FreeCodeCamp' imgSrc='/certs/cert-scientific-programming-with-python.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/scientific-computing-with-python-v7' />
 
-        <CardCert title='FreeCodeCamp - Data Analysis with Python' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-analysis-with-python-v7' />
+        <CardCert title='Data Analysis with Python' description='FreeCodeCamp' imgSrc='/certs/cert-data-analysis-with-python.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-analysis-with-python-v7' />
 
-        <CardCert title='FreeCodeCamp - Machine Learning with Python' description='Built 5 projects'
-          imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/machine-learning-with-python-v7' />
+        <CardCert title='Machine Learning with Python' description='FreeCodeCamp'
+          imgSrc='/certs/cert-machine-learning-with-python.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/machine-learning-with-python-v7' />
 
-        <CardCert title='FreeCodeCamp - College Algebra with Python' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/college-algebra-with-python-v8'/>
+        <CardCert title='College Algebra with Python' description='FreeCodeCamp' imgSrc='/certs/cert-college-algebra-with-python.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/college-algebra-with-python-v8' />
 
-        <CardCert title='FreeCodeCamp - Foundational C# with Microsoft' description='Built 5 projects ' imgSrc='https://placehold.co/600x400' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/foundational-c-sharp-with-microsoft
-
-'/>
+        <CardCert title='Foundational C# with Microsoft' description='FreeCodeCamp' imgSrc='/certs/cert-foundational-cs-with-microsoft.png' extLink='https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/foundational-c-sharp-with-microsoft' />
 
       </div>
 
