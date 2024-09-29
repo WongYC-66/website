@@ -4,15 +4,30 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="container lg:max-w-[768px] p-6 text-primary min-h-screen flex flex-col gap-20">
+      <div className="flex flex-col gap-4 px-5">
 
-      {/* About me */}
-      <div className="flex flex-col justify-center items-center gap-4 px-5">
-        <h2 className="font-bold text-2xl self-start">About me</h2>
+        {/* Hello! */}
+        <h2 className="font-bold text-2xl self-start">
+          {`Hello, my name is YengChien!`}
+        </h2>
 
-        {/* Profile-photo */}
-        <Image alt='photo' src='/profile-photo.jpg' className="rounded-full border-solid border-4 border-primary" height={250} width={250} />
+        <div className="flex flex-col md:flex-row justify-center items-center gap-16">
+          {/* Profile-photo */}
+          <Image alt='photo' src='/profile-photo.jpg' className="rounded-full border-solid border-4 border-primary" height={250} width={250} />
 
-        <p className="">Laboris culpa veniam non sint nulla laborum consectetur do ut dolore nisi.Laboris culpa veniam non sint nulla laborum consectetur do ut dolore nisi.Laboris culpa veniam non sint nulla laborum consectetur do ut dolore nisi.Laboris culpa veniam non sint nulla laborum consectetur do ut dolore nisi.</p>
+          {/* Short-description */}
+          <p>
+            {` I'm a full-stack web developer with experience using React.js, Node.js, and PostgreSQL.`}
+          </p>
+        </div>
+
+        {/* Button My Projects */}
+        <Link href='/projects/full-stack'>
+          <button className="btn btn-ghost w-full">
+            <p className="text-xl">Browse My Projects</p>
+          </button>
+        </Link>
+
 
       </div>
 
@@ -58,6 +73,21 @@ export default function Home() {
           </div>
         </div>
 
+
+      </div>
+
+      {/* About me */}
+      <div className="flex flex-col justify-center items-center gap-4 px-5">
+        <h2 className="font-bold text-2xl self-start">About me</h2>
+
+        <p className="">{`I graduated in 2019 with a degree in Mechanical Engineering and worked in the field for four years. I eventually realized that I had a stronger interest in software development, so I decided to make a career switch. I’ve been teaching myself how to program, primarily through FreeCodeCamp and The Odin Project. These online programs included many hands-on projects that helped me develop my skills and solidify my passion for web development. I’m now eager to continue growing as a PERN stack developer by working on personal projects and seeking opportunities to advance my career in software engineering.`}</p>
+
+        {/* Button My Certifications */}
+        <Link href='/certifications' className="w-full">
+          <button className="btn btn-ghost w-full">
+            <p className="text-xl">My Certifications</p>
+          </button>
+        </Link>
 
       </div>
 

@@ -21,7 +21,7 @@ export default function CardProject({ project }) {
             </div>
             <div className="card-body">
 
-                <div className="flex justify-between gap-4">
+                <div className="flex justify-between items-center gap-4">
                     {/* Project Title */}
                     <h2 className="card-title">{title}</h2>
 
