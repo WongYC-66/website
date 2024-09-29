@@ -1,30 +1,30 @@
 [
     {
-        "title": "aaa",
-        "description": "aaaaaaa",
-        "tech_stack": ["next"],
+        "title": "Cloned Threads",
+        "description": "A clone of Meta's Threads. User can make a post, or make a comment to the post, follow users, check out and edit own's profile. Created with next.js, react, node.js, express, postgreSQL",
+        "tech_stack": ["next,react,nodejs,express,postgresql"],
         "img_URL": "https://placehold.co/600x400",
-        "repo_URL": "google.com",
-        "demo_URL": "facebook.com",
+        "repo_URL": "https://github.com/WongYC-66/odin-odin-book",
+        "demo_URL": "https://odin-odinbook.netlify.app/",
         "type" : "full-stack"
     },
     {
-        "title": "bbb",
-        "description": "bbbbbbbbb",
-        "tech_stack": ["next"],
+        "title": "MessageMe Messanger",
+        "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, postgreSQL",
+        "tech_stack": ["next,react,nodejs,express,postgresql"],
         "img_URL": "https://placehold.co/600x400",
-        "repo_URL": "google.com",
-        "demo_URL": "facebook.com",
+        "repo_URL": "https://github.com/WongYC-66/odin-messaging-app-BE",
+        "demo_URL": "https://wongyc-66.github.io/odin-messaging-app-FE/",
         "type" : "full-stack"
     },
     {
-        "title": "ccccc",
-        "description": "cccccccccc",
-        "tech_stack": ["next"],
+        "title": "Game - Where's Waldo",
+        "description": "Like Where's Waldo, user is given a large image which contains several elements to find. Lastly, user add name to leaderboard. Created with react, vite, bootstrap, node.js, express, mongoDB",
+        "tech_stack": ["react,vite,bootstrap,nodejs,express,mongodb"],
         "img_URL": "https://placehold.co/600x400",
-        "repo_URL": "google.com",
-        "demo_URL": "facebook.com",
-        "type" : "front-end"
+        "repo_URL": "https://github.com/WongYC-66/odin-wheres-waldo-BE",
+        "demo_URL": "https://wongyc-66.github.io/odin-wheres-waldo-FE/",
+        "type" : "full-stack"
     },
     {
         "title": "dd",

@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Responsive Web Design",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-responsive-web-design.png",
+        "ext_Link": "https://www.freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/responsive-web-design",
+        "type" : "front-end"
+    },
+    {
+        "title": "JavaScript Algorithms and Data Structures",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-javascript-algorithms-and-data-structure.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/javascript-algorithms-and-data-structures-v8",
+        "type" : "front-end"
+    },
+    {
+        "title": "Front End Development Libraries",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-front-end-development-library.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/front-end-development-libraries",
+        "type" : "front-end"
+    },
+    {
+        "title": "Data Visualization",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-data-visulization.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-visualization",
+        "type" : "front-end"
+    },
+    {
+        "title": "JavaScript (Intermediate) Certificate",
+        "description": "HackerRank",
+        "img_Src": "/certs/cert-javascript-intermediate.png",
+        "ext_Link": "https://www.hackerrank.com/certificates/afee66052fa2",
+        "type" : "front-end"
+    }, 
+    {
+        "title": "Relational Database",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-relational-database.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/relational-database-v8",
+        "type" : "back-end"
+    },
+    {
+        "title": "Back End Development and APIs",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-backend-development-and-apis.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/back-end-development-and-apis",
+        "type" : "back-end"
+    },
+    {
+        "title": "Quality Assurance",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-quality-assurance.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/quality-assurance-v7",
+        "type" : "back-end"
+    },
+    {
+        "title": "Information Security",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-information-security.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/information-security-v7",
+        "type" : "back-end"
+    },
+    {
+        "title": "Problem Solving (Basic) Certificate",
+        "description": "HackerRank",
+        "img_Src": "/certs/cert-problem-solving-basic.png",
+        "ext_Link": "https://www.hackerrank.com/certificates/25f24bdd48b5",
+        "type" : "back-end"
+    },
+    {
+        "title": "Scientific Computing with Python",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-scientific-programming-with-python.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/scientific-computing-with-python-v7",
+        "type" : "other"
+    },
+    {
+        "title": "Data Analysis with Python",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-data-analysis-with-python.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/data-analysis-with-python-v7",
+        "type" : "other"
+    },
+    {
+        "title": "Machine Learning with Python",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-machine-learning-with-python.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/machine-learning-with-python-v7",
+        "type" : "other"
+    },
+    {
+        "title": "College Algebra with Python",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-college-algebra-with-python.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/college-algebra-with-python-v8",
+        "type" : "other"
+    },
+    {
+        "title": "Foundational C# with Microsoft",
+        "description": "FreeCodeCamp",
+        "img_Src": "/certs/cert-foundational-cs-with-microsoft.png",
+        "ext_Link": "https://freecodecamp.org/certification/fccb4ab014f-114b-48ed-8448-03ff36a34d10/foundational-c-sharp-with-microsoft",
+        "type" : "other"
+    }
+]
