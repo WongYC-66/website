@@ -9,14 +9,14 @@ export default function CardProject({ project }) {
     return (
         <div className="card bg-base-100 w-[450px] shadow-xl z-0">
             {/* Project Image */}
-            <div className="flex">
+            <div className="flex max-h-[250px]">
                 <Image
                     src={img_URL}
                     alt="cert"
-                    width={100}
-                    height={100}
+                    width={450}
+                    height={450}
                     unoptimized
-                    className="grow rounded-xl object-cover"
+                    className="grow rounded-xl object-cover border-solid border-2"
                 />
             </div>
             <div className="card-body">
@@ -44,7 +44,7 @@ export default function CardProject({ project }) {
                     </a>
                     <a href={demo_URL} target="_blank">
                         <button className="btn btn-primary">
-                            <Image alt='link' src='/external-link.png' class="invert" width={25} height={25} />
+                            <Image alt='link' src='/external-link.png' className="invert" width={25} height={25} />
                             Demo
                         </button>
                     </a>
