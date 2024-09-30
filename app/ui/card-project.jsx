@@ -2,9 +2,11 @@ import Image from "next/image"
 
 export default function CardProject({ project }) {
 
-    const { title, description, tech_stack, img_URL, repo_URL, demo_URL } = project
+    let { title, description, tech_stack, img_URL, repo_URL, demo_URL } = project
 
     const tech_stack_URL = `https://skillicons.dev/icons?i=${tech_stack.join(',')}&perline=3`
+
+    img_URL =  "/website" + img_URL // for github io GH-pages
 
     return (
         <div className="card bg-base-100 w-[450px] shadow-xl z-0">
@@ -38,13 +40,15 @@ export default function CardProject({ project }) {
                 <div className="card-actions">
                     <a href={repo_URL} target="_blank">
                         <button className="btn btn-primary">
-                            <Image alt='github' src='/github-mark-white.svg' width={25} height={25} />
+                            {/* <Image alt='github' src='/github-mark-white.svg' width={25} height={25} /> */}
+                            <Image alt='github' src='/website/github-mark-white.svg' width={25} height={25} />
                             Repo
                         </button>
                     </a>
                     <a href={demo_URL} target="_blank">
                         <button className="btn btn-primary">
-                            <Image alt='link' src='/external-link.png' className="invert" width={25} height={25} />
+                            {/* <Image alt='link' src='/external-link.png' className="invert" width={25} height={25} /> */}
+                            <Image alt='link' src='/website/external-link.png' className="invert" width={25} height={25} />
                             Demo
                         </button>
                     </a>

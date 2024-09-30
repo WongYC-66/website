@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react"
 export default function PhotoModal({ imgSrc, open, toggle }) {
 
     const modalRef = useRef(null)
+    imgSrc = "/website" + imgSrc    // for github.io GH-pages
 
     useEffect(() => {
         if (open)

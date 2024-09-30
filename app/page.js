@@ -101,23 +101,27 @@ export default function Home() {
 
         {/* Location */}
         <div className="flex gap-4">
-          <Image alt='email' src='/location-mark.png' width={35} height={35} />
+          {/* <Image alt='email' src='/location-mark.png' width={35} height={35} /> */}
+          <Image alt='email' src='/website/location-mark.png' width={35} height={35} />
           <p>Malaysia</p>
         </div>
 
         {/* Email */}
         <div className="flex gap-4">
-          <Image alt='email' src='/mail-icon.png' width={35} height={35} />
+          {/* <Image alt='email' src='/mail-icon.png' width={35} height={35} /> */}
+          <Image alt='email' src='/website/mail-icon.png' width={35} height={35} />
           <p>yengchien@hotmail.com</p>
         </div>
 
         {/* Github & Linkeinds icons */}
         <div className="flex gap-8 w-full">
           <a href='https://github.com/WongYC-66'>
-            <Image alt='github' src='/github.png' width={50} height={50} />
+            {/* <Image alt='github' src='/github.png' width={50} height={50} /> */}
+            <Image alt='github' src='/website/github.png' width={50} height={50} />
           </a>
           <a href='https://www.linkedin.com/in/yengchien-wong/'>
-            <Image alt='linkedin' src='/linkedin.png' width={50} height={50} />
+            {/* <Image alt='linkedin' src='/linkedin.png' width={50} height={50} /> */}
+            <Image alt='linkedin' src='/website/linkedin.png' width={50} height={50} />
           </a>
         </div>
 

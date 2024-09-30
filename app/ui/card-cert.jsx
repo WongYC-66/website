@@ -6,7 +6,8 @@ import PhotoModal from "./image-modal"
 
 export default function CardCert({ cert }) {
 
-    const { img_Src, title, description, ext_Link } = cert
+    let { img_Src, title, description, ext_Link } = cert
+    img_Src = "/website" + img_Src  // for github.io GH-Pages
 
     const [open, setOpen] = useState(false)
 
