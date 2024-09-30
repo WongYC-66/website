@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+    output: 'export',       // to generate static sites
+
     images: {
         remotePatterns: [
             {
@@ -8,6 +11,7 @@ const nextConfig = {
             },
         ],
         dangerouslyAllowSVG: true,
+        unoptimized: true,
     },
 };
 
