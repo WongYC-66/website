@@ -2,118 +2,155 @@
     {
         "title": "Mini Threads",
         "description": "A simple clone of Meta's Threads. User can make a post, or make a comment to the post, follow users, check out and edit own's profile. Created with next.js, react, taildwincss, shadcn/ui, node.js, passport.js, express, postgreSQL, prisma, supabase",
-        "tech_stack": ["next,react,tailwindcss,nodejs,express,postgresql,prisma,supabase"],
+        "tech_stack": [
+            "next,react,tailwindcss,nodejs,express,postgresql,prisma,supabase"
+        ],
         "img_URL": "/projects/threads-clone.png",
         "repo_URL": "https://github.com/WongYC-66/odin-mini-threads",
         "demo_URL": "https://odin-mini-threads.netlify.app",
-        "type" : "full-stack"
+        "type": "full-stack"
     },
     {
         "title": "MessageMe Messanger",
         "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, prisma, postgreSQL",
-        "tech_stack": ["react,nodejs,express,postgresql,prisma"],
+        "tech_stack": [
+            "react,nodejs,express,postgresql,prisma"
+        ],
         "img_URL": "/projects/messageme.png",
         "repo_URL": "https://github.com/WongYC-66/odin-messaging-app-BE",
         "demo_URL": "https://wongyc-66.github.io/odin-messaging-app-FE/",
-        "type" : "full-stack"
+        "type": "full-stack"
     },
     {
         "title": "Game - Where's Waldo",
         "description": "Like Where's Waldo, user is given a large image which contains several elements to find. Lastly, user add name to leaderboard. Created with react, vite, bootstrap, node.js, express, mongoDB",
-        "tech_stack": ["react,vite,bootstrap,nodejs,express,mongodb"],
+        "tech_stack": [
+            "react,vite,bootstrap,nodejs,express,mongodb"
+        ],
         "img_URL": "/projects/wheres-waldo.png",
         "repo_URL": "https://github.com/WongYC-66/odin-wheres-waldo-BE",
         "demo_URL": "https://wongyc-66.github.io/odin-wheres-waldo-FE/",
-        "type" : "full-stack"
+        "type": "full-stack"
     },
     {
         "title": "Cloudy Drive",
         "description": "A simple clone of Google Drive. User can upload, delete files, then share the file or folder link to others. Created with ejs, bootstrap, node.js, express, prisma, supabase",
-        "tech_stack": ["bootstrap,nodejs,express,prisma,supabase"],
+        "tech_stack": [
+            "bootstrap,nodejs,express,prisma,supabase"
+        ],
         "img_URL": "/projects/cloudy-drive.png",
         "repo_URL": "https://github.com/WongYC-66/odin-file-uploader",
         "demo_URL": "https://odin-file-uploader.adaptable.app/",
-        "type" : "full-stack"
+        "type": "full-stack"
     },
     {
         "title": "Blog",
         "description": "A simple website for blogging. Admin can make new blog post, edit or remove any post or comment. User can only view non-draft blog. Created with react, vite, bootstrap, node.js, express, mongoDB",
-        "tech_stack": ["react,vite,bootstrap,nodejs,express,mongodb"],
+        "tech_stack": [
+            "react,vite,bootstrap,nodejs,express,mongodb"
+        ],
         "img_URL": "/projects/blog.png",
         "repo_URL": "https://github.com/WongYC-66/odin-blog-api",
         "demo_URL": "https://odin-blog-api-client-admin.netlify.app/",
-        "type" : "full-stack"
+        "type": "full-stack"
     },
     {
         "title": "Inventory Web Apps",
         "description": "A simple website to handle inventory management. User can read, create, delete, update data like category, supplier, item. Or even upload item photo. Created with pug, bootstrap, node.js, express, prisma, postgresql, cloudinary",
-        "tech_stack": ["pug,bootstrap,nodejs,express,prisma,postgresql, "],
+        "tech_stack": [
+            "pug,bootstrap,nodejs,express,prisma,postgresql, "
+        ],
         "img_URL": "/projects/inventory-app.png",
         "repo_URL": "https://github.com/WongYC-66/odin-InventoryApplication-PostgreSQL",
         "demo_URL": "https://odin-inventoryapplication-pgsql.adaptable.app/",
-        "type" : "full-stack"
-    },
-    {
-        "title": "Admin Dashboard",
-        "description": "A simple dashboard UI.only. Created with html, css",
-        "tech_stack": ["html,css"],
-        "img_URL": "/projects/dashboard.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-admin-dashboard",
-        "demo_URL": "https://wongyc-66.github.io/odin-admin-dashboard/",
-        "type" : "front-end"
-    },
-    {
-        "title": "Game - Tic Tac Toe",
-        "description": "A game where u can play with other human or computer(random move). Created with html, css, javascript",
-        "tech_stack": ["html,css,javascript"],
-        "img_URL": "/projects/tictactoe.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-TicTacToe",
-        "demo_URL": "https://wongyc-66.github.io/odin-TicTacToe/",
-        "type" : "front-end"
-    },
-    {
-        "title": "To-do-list",
-        "description": "A web version of to-do-list where data is stored at browser. Created with html, css, javascript",
-        "tech_stack": ["html,css,javascript"],
-        "img_URL": "/projects/todolist.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-Todo-list",
-        "demo_URL": "https://wongyc-66.github.io/odin-Todo-list/",
-        "type" : "front-end"
-    },
-    {
-        "title": "Baaaaaattle ship",
-        "description": "A game where u can play with computer(random move). Created with html, css, javascript",
-        "tech_stack": ["html,css,javascript"],
-        "img_URL": "/projects/battleship.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-battleship",
-        "demo_URL": "https://wongyc-66.github.io/odin-battleship/",
-        "type" : "front-end"
-    },
-    {
-        "title": "YUMEKO's Clothes",
-        "description": "A fake online shopping cart. User can add item, increase or decrease item's quantity where data is stored at browser. Created with react, vite",
-        "tech_stack": ["react,vite"],
-        "img_URL": "/projects/shopping-cart.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-shopping_cart",
-        "demo_URL": "https://yumeko-clothes.netlify.app/",
-        "type" : "front-end"
+        "type": "full-stack"
     },
     {
         "title": "Game - Memory Card",
         "description": "A game where user continue to select card without repeating. Images used are from pokeAPI. Created with react, vite",
-        "tech_stack": ["react,vite"],
+        "tech_stack": [
+            "react,vite"
+        ],
         "img_URL": "/projects/memory-card.png",
         "repo_URL": "https://github.com/WongYC-66/odin-memory-card",
         "demo_URL": "https://odin-memory-card-game.netlify.app/",
-        "type" : "front-end"
+        "type": "front-end"
     },
     {
         "title": "CV - Creator",
         "description": "A web app where user create an CV by filling in information. Created with react, vite",
-        "tech_stack": ["react,vite"],
+        "tech_stack": [
+            "react,vite"
+        ],
         "img_URL": "/projects/CV-creator.png",
         "repo_URL": "https://github.com/WongYC-66/odin-CV-application",
         "demo_URL": "https://odin-cv-creator.netlify.app/",
-        "type" : "front-end"
+        "type": "front-end"
+    },
+    {
+        "title": "Maple Library",
+        "description": "A fan-made library for maple story (old school). User can search in-game data, and sort the result by property they futher select.",
+        "tech_stack": [
+            "react,vite,javascript"
+        ],
+        "img_URL": "/projects/maple-library.png",
+        "repo_URL": "https://github.com/WongYC-66/maple-library",
+        "demo_URL": "https://library-maple-story.netlify.app/",
+        "type": "front-end"
+    },
+    {
+        "title": "Game - Tic Tac Toe",
+        "description": "A game where u can play with other human or computer(random move). Created with html, css, javascript",
+        "tech_stack": [
+            "html,css,javascript"
+        ],
+        "img_URL": "/projects/tictactoe.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-TicTacToe",
+        "demo_URL": "https://wongyc-66.github.io/odin-TicTacToe/",
+        "type": "front-end"
+    },
+    {
+        "title": "To-do-list",
+        "description": "A web version of to-do-list where data is stored at browser. Created with html, css, javascript",
+        "tech_stack": [
+            "html,css,javascript"
+        ],
+        "img_URL": "/projects/todolist.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-Todo-list",
+        "demo_URL": "https://wongyc-66.github.io/odin-Todo-list/",
+        "type": "front-end"
+    },
+    {
+        "title": "Baaaaaattle ship",
+        "description": "A game where u can play with computer(random move). Created with html, css, javascript",
+        "tech_stack": [
+            "html,css,javascript"
+        ],
+        "img_URL": "/projects/battleship.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-battleship",
+        "demo_URL": "https://wongyc-66.github.io/odin-battleship/",
+        "type": "front-end"
+    },
+    {
+        "title": "YUMEKO's Clothes",
+        "description": "A fake online shopping cart. User can add item, increase or decrease item's quantity where data is stored at browser. Created with react, vite",
+        "tech_stack": [
+            "react,vite"
+        ],
+        "img_URL": "/projects/shopping-cart.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-shopping_cart",
+        "demo_URL": "https://yumeko-clothes.netlify.app/",
+        "type": "front-end"
+    },
+    {
+        "title": "Admin Dashboard",
+        "description": "A simple dashboard UI.only. Created with html, css",
+        "tech_stack": [
+            "html,css"
+        ],
+        "img_URL": "/projects/dashboard.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-admin-dashboard",
+        "demo_URL": "https://wongyc-66.github.io/odin-admin-dashboard/",
+        "type": "front-end"
     }
 ]
