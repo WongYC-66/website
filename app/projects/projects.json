@@ -1,17 +1,17 @@
 [
     {
-        "title": "Threads clone",
+        "title": "Mini Threads",
         "description": "A simple clone of Meta's Threads. User can make a post, or make a comment to the post, follow users, check out and edit own's profile. Created with next.js, react, taildwincss, shadcn/ui, node.js, passport.js, express, postgreSQL, prisma, supabase",
         "tech_stack": ["next,react,tailwindcss,nodejs,express,postgresql,prisma,supabase"],
         "img_URL": "/projects/threads-clone.png",
-        "repo_URL": "https://github.com/WongYC-66/odin-odin-book",
-        "demo_URL": "https://odin-odinbook.netlify.app/",
+        "repo_URL": "https://github.com/WongYC-66/odin-mini-threads",
+        "demo_URL": "https://odin-mini-threads.netlify.app",
         "type" : "full-stack"
     },
     {
         "title": "MessageMe Messanger",
-        "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, postgreSQL",
-        "tech_stack": ["react,nodejs,express,postgresql"],
+        "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, prisma, postgreSQL",
+        "tech_stack": ["react,nodejs,express,postgresql,prisma"],
         "img_URL": "/projects/messageme.png",
         "repo_URL": "https://github.com/WongYC-66/odin-messaging-app-BE",
         "demo_URL": "https://wongyc-66.github.io/odin-messaging-app-FE/",
@@ -28,8 +28,8 @@
     },
     {
         "title": "Cloudy Drive",
-        "description": "A simple clone of Google Drive. User can upload, delete files, then share the file or folder link to others. Created with pug, bootstrap, node.js, express, prisma, supabase",
-        "tech_stack": ["pug,bootstrap,nodejs,express,prisma,supabase"],
+        "description": "A simple clone of Google Drive. User can upload, delete files, then share the file or folder link to others. Created with ejs, bootstrap, node.js, express, prisma, supabase",
+        "tech_stack": ["bootstrap,nodejs,express,prisma,supabase"],
         "img_URL": "/projects/cloudy-drive.png",
         "repo_URL": "https://github.com/WongYC-66/odin-file-uploader",
         "demo_URL": "https://odin-file-uploader.adaptable.app/",
@@ -85,7 +85,7 @@
         "description": "A game where u can play with computer(random move). Created with html, css, javascript",
         "tech_stack": ["html,css,javascript"],
         "img_URL": "/projects/battleship.png",
-        "repo_URL": "https://www.theodinproject.com/lessons/node-path-javascript-battleship",
+        "repo_URL": "https://github.com/WongYC-66/odin-battleship",
         "demo_URL": "https://wongyc-66.github.io/odin-battleship/",
         "type" : "front-end"
     },
@@ -95,25 +95,25 @@
         "tech_stack": ["react,vite"],
         "img_URL": "/projects/shopping-cart.png",
         "repo_URL": "https://github.com/WongYC-66/odin-shopping_cart",
-        "demo_URL": "https://shopping-cart-react-ycw.netlify.app/",
+        "demo_URL": "https://yumeko-clothes.netlify.app/",
         "type" : "front-end"
     },
     {
         "title": "Game - Memory Card",
-        "description": "A game where user continue to select card BUT with no repeat. Images used are from pokeAPI. Created with react, vite",
+        "description": "A game where user continue to select card without repeating. Images used are from pokeAPI. Created with react, vite",
         "tech_stack": ["react,vite"],
         "img_URL": "/projects/memory-card.png",
         "repo_URL": "https://github.com/WongYC-66/odin-memory-card",
-        "demo_URL": "https://poke-memory-game-ycw.netlify.app/",
+        "demo_URL": "https://odin-memory-card-game.netlify.app/",
         "type" : "front-end"
     },
     {
-        "title": "CV - Application",
+        "title": "CV - Creator",
         "description": "A web app where user create an CV by filling in information. Created with react, vite",
         "tech_stack": ["react,vite"],
         "img_URL": "/projects/CV-creator.png",
         "repo_URL": "https://github.com/WongYC-66/odin-CV-application",
-        "demo_URL": "https://cv-application-ycw.netlify.app/",
+        "demo_URL": "https://odin-cv-creator.netlify.app/",
         "type" : "front-end"
     }
 ]
