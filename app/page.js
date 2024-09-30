@@ -13,7 +13,8 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-16">
           {/* Profile-photo */}
-          <Image alt='photo' src='/profile-photo.jpg' className="rounded-full border-solid border-4 border-primary" height={250} width={250} />
+          {/* <Image alt='photo' src='/profile-photo.jpg' className="rounded-full border-solid border-4 border-primary" height={250} width={250} /> */}
+          <Image alt='photo' src='/website/profile-photo.jpg' className="rounded-full border-solid border-4 border-primary" height={250} width={250} />
 
           {/* Short-description */}
           <p>
