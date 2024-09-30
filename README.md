@@ -4,7 +4,7 @@
 ![photo](personal-website.png)
 
 Live DEMO : 
-- >??????/
+- https://wongyc-66.github.io/website/
 
 Tech Stack:
 - Front end : Next.js, React, TailwindCSS, daisyUI
