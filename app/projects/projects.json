@@ -34,9 +34,9 @@
     },
     {
         "title": "Cloudy Drive",
-        "description": "A simple clone of Google Drive. User can upload, delete files, then share the file or folder link to others. Created with ejs, bootstrap, node.js, express, prisma, supabase",
+        "description": "A simple clone of Google Drive. User can upload, delete files, then share the file or folder link to others. Created with ejs, bootstrap, node.js, express, postgreSQL, prisma, supabase",
         "tech_stack": [
-            "bootstrap,nodejs,express,prisma,supabase"
+            "bootstrap,nodejs,express,postgresql,prisma,supabase"
         ],
         "img_URL": "/projects/cloudy-drive.png",
         "repo_URL": "https://github.com/WongYC-66/odin-file-uploader",
@@ -56,9 +56,9 @@
     },
     {
         "title": "Inventory Web Apps",
-        "description": "A simple website to handle inventory management. User can read, create, delete, update data like category, supplier, item. Or even upload item photo. Created with pug, bootstrap, node.js, express, prisma, postgresql, cloudinary",
+        "description": "A simple website to handle inventory management. User can read, create, delete, update data like category, supplier, item. Or even upload item photo. Created with pug, bootstrap, node.js, express, postgresql, cloudinary",
         "tech_stack": [
-            "pug,bootstrap,nodejs,express,prisma,postgresql, "
+            "pug,bootstrap,nodejs,express,postgresql, "
         ],
         "img_URL": "/projects/inventory-app.png",
         "repo_URL": "https://github.com/WongYC-66/odin-InventoryApplication-PostgreSQL",
@@ -133,7 +133,7 @@
     },
     {
         "title": "YUMEKO's Clothes",
-        "description": "A fake online shopping cart. User can add item, increase or decrease item's quantity where data is stored at browser. Created with react, vite",
+        "description": "A fake online shopping cart. User can add item, increase or decrease item's quantity where data is stored at browser. Created with react, react-router, vite",
         "tech_stack": [
             "react,vite"
         ],
@@ -144,7 +144,7 @@
     },
     {
         "title": "Admin Dashboard",
-        "description": "A simple dashboard UI.only. Created with html, css",
+        "description": "A simple dashboard UI only. Created with html, css",
         "tech_stack": [
             "html,css"
         ],

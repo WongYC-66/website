@@ -18,4 +18,4 @@ Repo:
 
 1. npm install
 2. npm run dev
-3. visit at http://localhost:3000
+3. visit at http://localhost:3000/website
