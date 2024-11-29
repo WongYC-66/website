@@ -18,7 +18,7 @@ export default function Home() {
 
           {/* Short-description */}
           <p>
-            {` I'm a full-stack web developer with experience using React.js, Node.js, and PostgreSQL.`}
+            {` I'm a full-stack web developer with experience using React.js, Node.js, PostgreSQL and Ruby on Rails.`}
           </p>
         </div>
 
@@ -39,10 +39,11 @@ export default function Home() {
         {/* Programming languages */}
         <div className="flex flex-col gap-4 bg-primary-content p-3 rounded-xl">
           <h2 className="font-bold">Programming</h2>
-          <Image alt='front-end-skills' src='https://skillicons.dev/icons?i=javascript,python' width={150} height={50} />
+          <Image alt='front-end-skills' src='https://skillicons.dev/icons?i=javascript,python,ruby' width={150} height={50} />
           <div className="flex flex-wrap gap-1">
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Javascript</span>
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Python</span>
+            <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Ruby</span>
           </div>
         </div>
 
@@ -63,7 +64,7 @@ export default function Home() {
         {/* BackEnd Skill */}
         <div className="flex flex-col gap-4 bg-primary-content p-3 rounded-xl">
           <h2 className="mb-2 font-bold">Back end</h2>
-          <Image alt='front-end-skills' src='https://skillicons.dev/icons?i=nodejs,express,mongo,postgresql,prisma,jest' width={500} height={50} />
+          <Image alt='front-end-skills' src='https://skillicons.dev/icons?i=nodejs,express,mongo,postgresql,prisma,jest,rails' width={500} height={50} />
           <div className="flex flex-wrap gap-1">
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Node.js</span>
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">express</span>
@@ -71,6 +72,7 @@ export default function Home() {
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">PostgreSQL</span>
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Prisma</span>
             <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Jest</span>
+            <span className="px-3 py-0.5 rounded-3xl bg-primary text-primary-content">Ruby on Rails</span>
           </div>
         </div>
 

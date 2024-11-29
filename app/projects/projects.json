@@ -1,13 +1,24 @@
 [
     {
         "title": "Mini Threads",
-        "description": "A simple clone of Meta's Threads. User can make a post, or make a comment to the post, follow users, check out and edit own's profile. Created with next.js, react, taildwincss, shadcn/ui, node.js, passport.js, express, postgreSQL, prisma, supabase",
+        "description": "A simple clone of Meta's Threads. User can make a post, or make a comment to the post, follow users, check out and edit own's profile. Created with next.js, react, tailwindcss, shadcn/ui, node.js, passport.js, express, postgreSQL, prisma, supabase",
         "tech_stack": [
             "next,react,tailwindcss,nodejs,express,postgresql,prisma,supabase"
         ],
         "img_URL": "/projects/threads-clone.png",
         "repo_URL": "https://github.com/WongYC-66/odin-mini-threads",
         "demo_URL": "https://odin-mini-threads.netlify.app",
+        "type": "full-stack"
+    },
+    {
+        "title": "Mini Social Media",
+        "description": "A simple clone of social media website. User can make a post with photo, or make a comment to the post, follow users, or check out other's profile and edit own's. Created with Ruby on Rails, tailwindcss, omniauth, devise",
+        "tech_stack": [
+            "rails,tailwindcss,postgresql,supabase"
+        ],
+        "img_URL": "/projects/rails_final_project.png",
+        "repo_URL": "https://github.com/WongYC-66/odin-rails-final-project",
+        "demo_URL": "https://odin-rails-final-project.onrender.com/",
         "type": "full-stack"
     },
     {
