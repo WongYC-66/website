@@ -23,9 +23,9 @@
     },
     {
         "title": "MessageMe Messanger",
-        "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, prisma, postgreSQL",
+        "description": "A simple messaging app with http. User can view who's online, send them message, or create a group chat, then check out other's or edit own's profile. Created with react, react-router, node.js, express, prisma, postgreSQL, supabase",
         "tech_stack": [
-            "react,nodejs,express,postgresql,prisma"
+            "react,nodejs,express,postgresql,prisma,supabase"
         ],
         "img_URL": "/projects/messageme.png",
         "repo_URL": "https://github.com/WongYC-66/odin-messaging-app-BE",
@@ -51,7 +51,7 @@
         ],
         "img_URL": "/projects/cloudy-drive.png",
         "repo_URL": "https://github.com/WongYC-66/odin-file-uploader",
-        "demo_URL": "https://odin-file-uploader.adaptable.app/",
+        "demo_URL": "https://odin-file-uploader-gxe3.onrender.com/",
         "type": "full-stack"
     },
     {
@@ -67,13 +67,13 @@
     },
     {
         "title": "Inventory Web Apps",
-        "description": "A simple website to handle inventory management. User can read, create, delete, update data like category, supplier, item. Or even upload item photo. Created with pug, bootstrap, node.js, express, postgresql, cloudinary",
+        "description": "A simple website to handle inventory management. User can read, create, delete, update data like category, supplier, item. Or even upload item photo. Created with pug, bootstrap, node.js, express, postgresql, cloudinary, supabase",
         "tech_stack": [
-            "pug,bootstrap,nodejs,express,postgresql, "
+            "pug,bootstrap,nodejs,express,postgresql,supabase"
         ],
         "img_URL": "/projects/inventory-app.png",
         "repo_URL": "https://github.com/WongYC-66/odin-InventoryApplication-PostgreSQL",
-        "demo_URL": "https://odin-inventoryapplication-pgsql.adaptable.app/",
+        "demo_URL": "https://odin-inventoryapplication-postgresql.onrender.com/",
         "type": "full-stack"
     },
     {
