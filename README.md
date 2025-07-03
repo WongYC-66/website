@@ -19,4 +19,5 @@ Repo:
 1. npm install
 2. npm run dev
 3. visit at http://localhost:3000/website
-4. add resume PDF to /public/resume and update my resume(in markdown) to point to new url e.g.
+4. add resume PDF to /public/resume and update my resume(in markdown) to point to new url   
+    - e.g. https://github.com/WongYC-66/website/blob/adc925f103ba284a8734bce709eb05483f9f99a3/public/resume/Yeng_Chien_Wong_2025_07.pdf
