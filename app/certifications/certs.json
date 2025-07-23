@@ -70,6 +70,13 @@
         "type" : "back-end"
     },
     {
+        "title": "Problem Solving (Intermediate) Certificate",
+        "description": "HackerRank",
+        "img_Src": "/certs/cert-problem-solving-intermediate.png",
+        "ext_Link": "https://www.hackerrank.com/certificates/1e3dbc14bfb5",
+        "type" : "back-end"
+    },
+    {
         "title": "Scientific Computing with Python",
         "description": "FreeCodeCamp",
         "img_Src": "/certs/cert-scientific-programming-with-python.png",
