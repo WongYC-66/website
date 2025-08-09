@@ -16,6 +16,7 @@ export default function NavBar() {
             <div className="flex-1">
                 <Link href='/' className="btn btn-ghost text-xl">YC Wong</Link>
             </div>
+
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li>
@@ -38,7 +39,11 @@ export default function NavBar() {
                         <Link href='/certifications'>Certifications</Link>
                     </li>
 
-                   
+                    <li>
+                        {/* Resume Link*/}
+                        <Link href='https://raw.githubusercontent.com/WongYC-66/website/main/public/resume/Yeng_Chien_Wong_2025_07.pdf'>Resume</Link>
+                    </li>
+                
                 </ul>
             </div>
         </nav>
