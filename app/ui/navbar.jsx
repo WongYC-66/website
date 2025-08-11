@@ -41,7 +41,7 @@ export default function NavBar() {
 
                     <li>
                         {/* Resume Link*/}
-                        <Link href='https://raw.githubusercontent.com/WongYC-66/website/main/public/resume/Yeng_Chien_Wong_2025_07.pdf'>Resume</Link>
+                        <Link href='/resume'>Resume</Link>
                     </li>
                 
                 </ul>
