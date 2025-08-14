@@ -23,6 +23,9 @@ export default function NavBar() {
                         <Link href='/'>Home</Link>
                     </li>
                     <li>
+                        <Link href='/blogs'>Blog</Link>
+                    </li>
+                    <li>
                         <details ref={dropdownRef}>
                             <summary >Projects</summary>
                             <ul className="bg-base-100 rounded-t-none p-2 text-primary">
