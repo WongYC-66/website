@@ -1,8 +1,10 @@
 import path from 'node:path';
 import { readdir, readFile } from 'node:fs/promises';
 
+const METADATA_REGEX = /---(\r)?\n(.+(\r)?\n)+---(\r)?\n/
+
 const extractMetadata = async (path) => {
-    const regex = /---\r\n(.+\r\n)+---\r\n/
+    const regex = METADATA_REGEX
 
     const file = await readFile(path, { encoding: 'utf8' })
 
@@ -66,7 +68,7 @@ export const getPostByPath = async (path) => {
 }
 
 export const removeMetadata = (str) => {
-    const regex = /---\r\n(.+\r\n)+---\r\n/
+    const regex = METADATA_REGEX
     return str.replace(regex, "")
 }
 
