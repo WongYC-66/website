@@ -31,11 +31,12 @@ const generateResumeURL = (origin) => {
   const ALL_MY_RESUME_LINKS = {
     "2025-07": `/website/resume/Yeng_Chien_Wong_2025_07.pdf`,
     "2025-08": `/website/resume/Yeng_Chien_Wong_2025_08.pdf`,
+    "2026-05": `/website/resume/Yeng_Chien_Wong_2026_05.pdf`,
     // ...
   }
 
   // Edit here to represent the latest default 
-  const latest_key = "2025-08"
+  const latest_key = "2026-05"
 
   return origin + ALL_MY_RESUME_LINKS[latest_key]
 }
