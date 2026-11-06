@@ -35,7 +35,8 @@ const getAllMarkdownFilePaths = async () => {
     // todo: could be further optimise with Promise.all 
     for (let year of years) {
         const markdownYearDir = path.join(markdownRootPath, year)
-        const files = await readdir(markdownYearDir);
+        let files = await readdir(markdownYearDir)
+        files = files.filter(dir => dir.endsWith(".md") || dir.endsWith(".mdx"))
         for (let filename of files) {
             allMarkdownPaths.push(path.join(markdownYearDir, filename))
         }
